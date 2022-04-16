@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9F8F8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nomLaout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom..."
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/prenomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prenom..."
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/dateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date de naissance..."
+            android:inputType="date"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/villeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ville..."
+            android:inputType="text"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/nouv"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#702963"
+            android:text="Ajouter"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#702963"
+            android:text="Quitter"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
